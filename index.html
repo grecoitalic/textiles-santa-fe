@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textiles Santa Fe</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; }
+        header { background: linear-gradient(135deg, #1a472a 0%, #2d7a4a 100%); color: white; padding: 2rem 0; text-align: center; }
+        header h1 { font-size: 2.5rem; }
+        nav { background-color: #155a34; padding: 1rem; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 0 1.5rem; font-weight: bold; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        .section h2 { color: #1a472a; border-bottom: 3px solid #2d7a4a; padding: 1rem 0; }
+        .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 2rem 0; }
+        .product-card { background: #f0f8f4; border: 2px solid #2d7a4a; border-radius: 8px; padding: 1.5rem; text-align: center; }
+        .contact-info { background-color: #f0f8f4; padding: 2rem; border-radius: 8px; }
+        .contact-info strong { color: #1a472a; }
+        footer { background-color: #155a34; color: white; text-align: center; padding: 2rem; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Textiles Santa Fe</h1>
+        <p>Distribuidor de Telas y Textiles</p>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <section class="section" id="inicio">
+            <h2>Bienvenido a Textiles Santa Fe</h2>
+            <p>Somos distribuidores especializados de telas y textiles de alta calidad con 15 años de experiencia.</p>
+        </section>
+        <section class="section" id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="products">
+                <div class="product-card"><h3>Algodón Orgánico</h3><p>Telas 100% orgánico para prendas cómodas</p></div>
+                <div class="product-card"><h3>Lino Importado</h3><p>Lino de calidad para ropa de verano</p></div>
+                <div class="product-card"><h3>Seda Premium</h3><p>Sedas importadas para prendas elegantes</p></div>
+                <div class="product-card"><h3>Telas Técnicas</h3><p>Materiales para uniforme y deportiva</p></div>
+            </div>
+        </section>
+        <section class="section" id="contacto">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <p><strong>Dirección:</strong> Santa Fe, Colombia</p>
+                <p><strong>Teléfono:</strong> +57 3XX XXX XXXX</p>
+                <p><strong>Email:</strong> ventas@textillessantafe.com</p>
+                <p><strong>Horario:</strong> Lunes a Viernes 8:00 AM - 6:00 PM</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Textiles Santa Fe. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
